@@ -1,0 +1,104 @@
+// navigasi bar pada public
+nav.navbar {
+    height: 50px;
+    background: #fff;
+
+    // logo pada navigasi
+    .navbar__logo {
+        font-weight: bolder;
+        color: $textColor-primary;
+        letter-spacing: 3px;
+    }
+
+    // hamburger menu pada navigasi
+    .navbar__menu {
+        display: none;
+
+        // layar mobile
+        @media screen and (max-width: 576px) {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        // tombol untuk klik menu navigasi di mobile
+        a.navbar__menu--active {
+            @include navLink;
+        }
+    }
+    
+    // list menu pada navigasi
+    .navbar__list {
+        display: flex;
+        justify-content: flex-end;   
+
+        // tombol close pada navbar list
+        .navbar__list--close {
+            @include navLink;
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;    
+            width: auto;
+
+            li {
+                margin-left: 2rem;            
+        
+                a {
+                    &.navbar__list__link{
+                        @include navLink;
+                    }
+        
+                    // navbar active public pada router-link
+                    &.navbar__active {
+                        color: $textColor-primary;
+                        font-weight: bolder;
+        
+                        &:hover {
+                            text-decoration: none;
+                            color: darken($textColor-primary, 10%);
+                        }
+                    }
+                }            
+            }
+            
+        }
+        // navbar list pada ukuran mobile
+        @media screen and (max-width: 576px) {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 0;
+            background: #fff;
+            z-index: 1;
+            box-shadow: 0 2px 2px rgba($color: #000000, $alpha: 0.3);
+            transition: 0.4s;
+
+            .navbar__list--close {
+                display: inline-block;
+                position: absolute;
+                top: 13px;
+                left: 2rem;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                left: 0;
+                width: 100%;
+                text-align: center;
+
+                li {
+                    margin: 0 0 2rem;
+                }
+            }
+
+        }
+    }
+
+}

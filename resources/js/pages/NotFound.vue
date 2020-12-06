@@ -1,6 +1,6 @@
 <template>
   <div>
-      <p>test router</p>
+      <p>Error | 404</p>
   </div>
 </template>
 

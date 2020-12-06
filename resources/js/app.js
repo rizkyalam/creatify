@@ -7,15 +7,11 @@ import routes from './router';
 Vue.use(VueRouter);
 const router = new VueRouter({
     mode: 'history',
-    routes
+    routes,
+    linkActiveClass: 'navbar__active'
 });
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 const app = new Vue({
     el: '#app',
-    data: {
-        msg: 'test'
-    },
     router
 });

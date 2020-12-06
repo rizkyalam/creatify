@@ -13,6 +13,8 @@ use App\Http\Controllers\PublicController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// route
+Route::get('/{any}', [PublicController::class, 'index'])->where('any', '.*');
+
 
 // route public
-Route::get('/{any}', [PublicController::class, 'index'])->where('any', '.*');
