@@ -8,3 +8,23 @@
         font-weight: bold;
     }
 }
+
+@mixin btnMain($padding:0.5rem 1.3rem) {
+    background: $mainColor;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+    padding: $padding;
+
+    &:hover {
+        background: darken($mainColor, $amount: 15%);
+        color: darken(#fff, $amount: 15%);
+    }
+}
+
+// display flex untuk ketengah
+@mixin dFlexCenter($justify: center, $alignItem: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $alignItem;
+}

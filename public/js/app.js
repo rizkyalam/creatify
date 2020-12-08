@@ -52718,6 +52718,33 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/js/admin.js":
+/*!*******************************!*\
+  !*** ./resources/js/admin.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  // sidebar
+  $('.navbar-admin__left--sidebar').on('click', function (e) {
+    e.preventDefault();
+    $('.sidebar').toggleClass('active');
+    $('.navbar-admin').toggleClass('active');
+    $('.main-content-admin').toggleClass('active');
+  }); // close di sidebar
+
+  $('.sidebar--close').on('click', function (e) {
+    e.preventDefault;
+    $('.sidebar').removeClass('active');
+    $('.navbar-admin').removeClass('active');
+  });
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -52729,9 +52756,11 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./router */ "./resources/js/router/index.js");
+/* harmony import */ var _admin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./admin */ "./resources/js/admin.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
 
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
@@ -52742,8 +52771,13 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
 });
 var app = new Vue({
   el: '#app',
+  data: {
+    msg: 'test'
+  },
   router: router
-});
+}); // mengaktifkan styling dynamic pada page admin js
+
+Object(_admin__WEBPACK_IMPORTED_MODULE_2__["default"])();
 
 /***/ }),
 
@@ -52805,36 +52839,36 @@ __webpack_require__.r(__webpack_exports__);
   path: '*',
   name: 'NotFound',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
+  }
+}, {
+  path: '/',
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
   }
 }, {
   path: '/home',
   name: 'Home',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
-  }
-}, {
-  path: '/',
-  component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
+    return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
   }
 }, {
   path: '/data',
   name: 'Data',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
+    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
   }
 }, {
   path: '/berita',
   name: 'Berita',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
+    return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
   }
 }, {
   path: '/faq',
   name: 'FAQ',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
+    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
   }
 }]);
 

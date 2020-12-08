@@ -1,0 +1,287 @@
+// card pertama
+.informasi {
+    
+    .card-body {
+        display: flex;    
+        
+        // gambar
+        .informasi__img {
+            text-align: center;
+            
+            img {
+                object-fit: contain;
+                object-position: center;
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+
+        .informasi__description {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                font-size: 36px;
+                color: #438a5e;
+            }
+
+            p {
+                color: #7F8C8D;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .card-body {
+            flex-direction: column;
+
+            // gambar
+            .informasi__img {                
+                img {
+                    width: 15rem;
+                    height: 15rem;
+                }
+            }
+
+            .informasi__description {
+                h2 {
+                    font-size: 28px;
+                    color: #438a5e;
+                }
+            }
+        }
+
+    }
+
+}
+
+// informasi bagian 2
+.informasi-2 {
+    margin-top: 4rem;
+
+    .carousel {
+        .carousel__img {
+            height: 20rem;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .contact {
+        .card {
+            padding: 1rem 1.5rem;
+
+            h3,
+            .contact__telepon {
+                color: $textColor-primary;
+            }         
+
+            h3 {
+                padding: 0;
+                margin: 0;
+
+                @media screen and (max-width: 768px){
+                    font-size: 25px;
+                }
+            }
+            
+            .contact__keterangan {
+                color: $textColor-secondary;
+                padding: 0;
+                margin-bottom: 0.5rem;
+            }
+
+            .contact__telepon {
+                i {
+                    font-size: 1.5rem;
+                }
+
+                span {
+                    font-size: 1.3rem;
+                    margin-left: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+// bagian data covid
+.data-covid {
+    margin-top: 4rem;
+    text-align: center;
+
+    h3 {
+        color: $textColor-primary;
+    }
+
+    // data statistik
+    &__statistik {
+        display: flex;
+        
+        &__detail {
+
+            // gambar statistik
+            img {
+                width: 13.5rem;
+                height: 13.5rem;
+                object-position: center;
+                object-fit: contain;
+                margin: 1.3rem auto;
+                height: 10rem;
+            }
+
+            h4 {
+                color: $textColor-primary
+            }
+
+            p {
+                color: $textColor-secondary;
+            }
+
+        }
+    }
+
+    // tombol untuk pindah link
+    &--check {
+        @include btnMain;
+        margin-top: 2rem;
+    }
+
+    @media screen and (max-width:768px) {
+        &__statistik {
+            flex-direction: column;
+
+            &__detail {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        &--check {
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+// bagian berita pada home
+.news {
+    width: 100%;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    margin: 5rem 0;
+    padding: 5rem 2rem 0;
+
+    &__content {
+        margin: 0 auto;
+        width: 90%;
+
+        // gambar content
+        &__img {
+            @include dFlexCenter;
+            
+            img {
+                text-align: center;
+                object-fit: cover;
+                object-position: center;
+                width: 100%;   
+                height: auto;
+            }
+        }
+
+        &__info {
+            h3 {
+                margin-top: 3rem;
+                color: $textColor-primary;
+                font-weight: 700;
+            }
+
+            p {
+                color: $textColor-secondary;
+            }
+
+            &--check {
+                @include btnMain;
+            }
+        }
+    }
+
+    // tombol halaman active pada carousel berita 
+    .news__page {
+        width: 100%;
+        @include dFlexCenter;
+
+        &__link {
+            margin: 2.5rem 10px;
+            width: 15px;
+            height: 15px;
+            background: $textColor-secondary;
+            border-radius: 50%;
+
+            &.active {
+                background: $textColor-primary;
+            }
+        }
+    }
+
+    // tombol berita untuk selanjutnya atau sebelumnya
+    &__btn {
+        width: auto;
+        height: auto;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        
+        // tombol kiri
+        &.news__btn__left {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        // tombol kanan
+        &.news__btn__right {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+        
+        a {
+            color: $textColor-primary;
+            font-size: 2.3rem;
+    
+            &:hover {
+                text-decoration: none;
+                color: darken($textColor-primary, 20%);
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 576px) {
+        &__content {
+            // gambar content
+            &__img {
+                @include dFlexCenter;
+                
+                img {
+                    text-align: center;
+                    object-fit: cover;
+                    object-position: center;
+                    width: 100%;   
+                    height: 15rem;
+                }
+            }
+    
+            &__info {
+                &--check {
+                    @include dFlexCenter(flex-end, flex-start);
+                }
+            }
+        }
+    }
+}

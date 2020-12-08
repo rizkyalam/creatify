@@ -1,6 +1,7 @@
 // Body
 // $body-bg: #f8fafc;
 $body-bg: #EFF0F9;
+$body-bg-auth: #5CC073;
 
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
@@ -21,7 +22,23 @@ $cyan: #6cb2eb;
 
 // Navbar
 $nav-bg: #f8fafc;
+$navAdmin-bg: linear-gradient(90.26deg, #5CC073 37.15%, #55AE67 73.48%);
+$navAdminTextColor: #fff;
+$sidenavAdmin-bg: #fff;
+$times: 0.3s;
+
+// jumbotron
+$jumbotron-bg: linear-gradient(to right, #5AA469 40%, rgba(92, 192, 115, 0.817708) 80%);
+$jumbotron-color: #fff;
+$jumbotron-color-btn: #fff;
+$jumbotron-color-btn-logo: #FF3F34;
+$jumbotron-bg-mobile: #5AA469;
 
 // main color
 $textColor-primary: #438A5E;
 $textColor-secondary: #7F8C8D;
+$warningColor: #FFBF3E;
+$mainColor: #438A5E;
+
+// card
+$shadowCard: 2px 4px 5px rgba($color: #000000, $alpha: 0.25);

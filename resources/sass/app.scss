@@ -15,3 +15,28 @@
 
 // Navbar and sidenav
 @import 'nav';
+
+// Jumbotron
+@import 'jumbotron';
+
+// style pada page home / landing page
+@import 'home';
+
+// auth admin
+@import 'auth';
+
+// page admin style
+@import 'admin';
+
+// bootstrap perubahan
+.card {
+    box-shadow: $shadowCard;
+}
+
+.dropdown-item {
+    color: $textColor-secondary;
+}
+/*
+** Ada style yang di buat menggunakan file sass secara terpisah
+** ada juga yang langsung di file vue.js nya langsung
+*/

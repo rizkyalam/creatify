@@ -1,0 +1,143 @@
+// jumbotron pada home
+.jumbotron {
+    width: 100%;
+    height: 90vh;
+    border-radius: 0;
+    background: $jumbotron-bg;
+    position: relative;
+    display: flex;
+
+    .container {
+        margin: 0 auto;
+    }
+    
+    &::after {
+        content: '';
+        height: 15rem;
+        transform: translateY(15rem);
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: $jumbotron-bg;
+    }
+
+    // deskripsi pada jumbotron
+    .jumbotron__description {
+        margin-top: 4.5rem;
+        padding: 0;
+
+        &__title {
+            color: $jumbotron-color;
+            margin-bottom: 1.6rem;
+
+            h1 {
+                font-weight: bold;
+                font-size: 42px;
+            }
+        }
+
+        &__text {
+            color: $jumbotron-color;
+            font-weight: 300;
+            font-size: 20px;
+            width: 70%;
+            margin-bottom: 1.6rem;
+        }
+
+        // tombol untuk check di jumbotron
+        &__btn--check {
+            background: $warningColor;
+            color: $jumbotron-color;
+            border-radius: 50px;
+            box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+            padding: 0.5rem 1.3rem;
+
+            i.fas.fa-thermometer-half {
+                color: $jumbotron-color-btn-logo;
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: darken($jumbotron-color-btn-logo, $amount: 15%);
+                }
+            }
+
+            span {
+                margin-left: 0.5rem;
+                color: $jumbotron-color;
+                
+                &:hover {
+                    color: darken($jumbotron-color, $amount: 15%);
+                }
+            }
+
+            &:hover {
+                background: darken($warningColor, $amount: 15%);
+
+                i.fas.fa-thermometer-half {
+                    color: darken($jumbotron-color-btn-logo, $amount: 15%);
+                    text-decoration: none;
+                }
+    
+                span {
+                    color: darken($jumbotron-color, $amount: 15%);
+                }
+            }
+        }
+    }
+
+    // gambar di jumbotron
+    .jumbotron__image {
+        // margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+        img {
+            object-fit: contain;
+            object-position: center;
+            width: 25rem;
+            height: 20rem;
+        }
+    }
+
+    // untuk ukuran mobile
+    @media screen and (max-width: 768px) {
+        background: $jumbotron-bg-mobile;
+        height: 100vh;
+
+        &::after {
+            background: $jumbotron-bg-mobile;
+        }
+
+        .jumbotron__description {
+            margin-top: 10vh;
+
+            &__title {
+                width: 100%;
+
+                h1 {
+                    text-align: center;
+                    font-size: 36px;
+                }
+            }
+
+            &__text {
+                width: 100%;
+                text-align: center;
+            }
+
+            &__btn--check {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .jumbotron__image {
+            display: none;
+        }
+    }
+}

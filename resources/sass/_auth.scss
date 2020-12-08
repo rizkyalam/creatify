@@ -1,0 +1,87 @@
+// background body pada auth
+body.auth {
+    background: $body-bg-auth;
+}
+
+// card auth
+.auth-card {
+    width: 70%;
+    height: 85vh;
+    margin: 3rem auto 0;
+    padding: 0 4rem;
+
+    .auth-card__img {
+        img {
+            height: 30rem;
+            width: 20rem;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+
+    .auth-card__login-form {
+        @include dFlexCenter;
+        flex-direction: column;
+
+        h2 {
+            color: $textColor-primary;
+            margin-bottom: 1em;
+        }
+
+        .auth-card__login-form__group {
+            position: relative;
+            background: #E8EEE6;
+            border-radius: 50px;
+            display: flex;
+            box-sizing: border-box;
+
+            label {
+                position: absolute;
+                @include dFlexCenter;
+                top: 5px;
+                bottom: 0;
+                left: 20px;
+                color: #7F8C8D;
+            }
+
+            input {
+                outline: none;
+                background: transparent;
+                border: none;
+                width: 90%;
+                margin-left: 2.2rem;
+                display: block;
+
+                &:focus {
+                    outline-style: none;
+                    box-shadow: none;
+                    border-color: transparent;
+                }
+            }
+        }
+
+        .auth-card__login-form__btn {
+            @include dFlexCenter;
+
+            &--submit {
+                @include btnMain(0.3rem 3rem);
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        padding: 0 1rem;
+        width: 90%;
+        .auth-card__img {
+            display: none;
+        }
+
+        h2 {
+            margin-bottom: 0.5rem;
+        }
+
+        .auth-card__login-form__group {
+            width: 100%;
+        }
+    }
+}

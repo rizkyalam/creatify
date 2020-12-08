@@ -2,6 +2,10 @@
 nav.navbar {
     height: 50px;
     background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 0 1px 1px rgba($color: #000000, $alpha: 0.25);
 
     // logo pada navigasi
     .navbar__logo {
@@ -74,7 +78,7 @@ nav.navbar {
             background: #fff;
             z-index: 1;
             box-shadow: 0 2px 2px rgba($color: #000000, $alpha: 0.3);
-            transition: 0.4s;
+            transition: $times;
 
             .navbar__list--close {
                 display: inline-block;
@@ -101,4 +105,287 @@ nav.navbar {
         }
     }
 
+}
+
+// navbar di halaman admin
+nav.navbar-admin {
+    background: $navAdmin-bg;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: unset;
+    transition: $times;
+    
+    .navbar-admin__left {
+        &--sidebar {
+            color: $navAdminTextColor;
+
+            &:hover {
+                color: darken($navAdminTextColor, 15%);
+            }
+        }
+
+        span {
+            color: $navAdminTextColor;
+            font-weight: 700;
+        }
+    }    
+    
+    // bagian kanan
+    .navbar-admin__right {
+        &--menu {
+            text-decoration: none;
+
+            img {
+                border-radius: 50%; 
+                width: 30px; 
+                height: 30px; 
+                object-fit: cover; 
+                object-position: center; 
+                border: 1px solid rgba(0, 0, 0, 0.25);
+                margin-right: 0.6rem;
+            }
+
+            span {
+                margin-right: 5px;
+                color: $navAdminTextColor;
+            }
+
+            i {
+                color: $navAdminTextColor;
+            }
+
+        }
+    }
+
+    &.active {
+        width: 100%;        
+    }
+
+    // ukuran tablet dan mobile phone
+    @media screen and (max-width: 768px){
+        width: 100%;
+
+        .navbar-admin__left {
+            span {
+                display: none;
+            }
+        }   
+
+        .navbar-admin__right {
+            &--menu {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// sidebar menu pada template admin
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    background: darken($sidenavAdmin-bg, 2%);
+    box-shadow: 2px 0 10px rgba($color: #000000, $alpha: 0.25);
+    transition: $times;
+    overflow-x: none;
+    z-index: 5;
+
+    &--close {
+        display: none;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        color: $textColor-secondary;
+        text-decoration: none;
+
+
+        &:hover {
+            color: $textColor-primary;
+        }
+    }
+
+    ul, 
+    &__logo {
+        transition: $times;
+    }
+
+    &__logo {
+        width: 100%;
+        height: 50px;
+        font-weight: bolder;
+        color: $textColor-primary;
+        letter-spacing: 3px;
+        @include dFlexCenter;
+        font-size: 1.4rem;
+        background: $sidenavAdmin-bg;
+        box-shadow: 0 1px 2px rgba($color: #000000, $alpha: 0.25);
+        position: relative;
+    }
+
+    // daftar menu link
+    ul {
+        list-style: none;
+        margin-top: 1.4rem;   
+        padding: 0;    
+        position: relative;
+
+        .sidebar__divider {
+            margin: 1 auto;
+            width: 60%;
+        }
+
+        // ketika link sesuai dengan path url
+        li.sidebar__active {
+            background: linear-gradient(90deg, #5DC074 50%, #55AF68 110.32%);            
+            border-radius: 5px;
+            padding: 0.5rem 1rem;            
+
+            a {
+                span,
+                i.fa-tv,
+                i.fa-user,
+                i.fa-newspaper,
+                i.fa-map-marker-alt,
+                i.fa-virus {
+                    color: $navAdminTextColor;                    
+                    font-weight: 700;
+                    width: auto;
+                }
+                
+                &:hover {
+                    span,
+                    i.fa-tv,
+                    i.fa-user,
+                    i.fa-newspaper,
+                    i.fa-map-marker-alt,
+                    i.fa-virus {
+                        color: $navAdminTextColor;                        
+                    }
+                }
+            }
+        }
+
+        // link biasa
+        li {
+            margin: 1.5rem 1.5rem 0;
+            
+            a {
+                width: 100%;
+
+                span {
+                    margin-left: 1rem;
+                    color: $textColor-secondary;
+                    width: 80%;
+                }
+                
+                i {
+                    width: 20%;
+                    font-size: 1.1rem;
+                }
+
+                i.fa-tv {
+                    color: #5DC074;
+                }
+
+                i.fa-user {
+                    color: #0FBCF9;
+                }
+
+                i.fa-newspaper {
+                    color: #FFBF3E;
+                }
+
+                i.fa-map-marker-alt {
+                    color: #FF3F34;
+                }
+
+                i.fa-virus {
+                    color: #6C5CE7;
+                }
+
+                &:hover {
+                    text-decoration: none;
+
+                    span {
+                        color: #5DC074;
+                        font-weight: 700;
+                    }
+
+                    i.fa-tv {
+                        color: darken(#5DC074, 20%);
+                    }
+    
+                    i.fa-user {
+                        color: darken(#0FBCF9, 20%);
+                    }
+    
+                    i.fa-newspaper {
+                        color: darken(#FFBF3E, 20%);
+                    }
+    
+                    i.fa-map-marker-alt {
+                        color: darken(#FF3F34, 20%);
+                    }
+    
+                    i.fa-virus {
+                        color: darken(#6C5CE7, 20%);
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    // ketika aktif
+    &.active {
+        width: 0;
+
+        ul,
+        .sidebar__logo {
+            transform: translateX(-50rem);            
+        }
+    }
+
+    // mobile version
+    @media screen and (max-width:768px) {
+        width: 0;
+
+        // tombol close
+        &--close {
+            display: inline-block;
+        }
+
+        ul {
+            li {
+                a {
+                    width: auto;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        ul,
+        .sidebar__logo {
+            transform: translateX(-50rem);            
+        }
+
+        // ketika active
+        &.active {
+            width: 70%;
+    
+            ul,
+            .sidebar__logo {
+                transform: translateX(0rem);
+            }
+        }
+    }
 }

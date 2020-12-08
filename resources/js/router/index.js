@@ -5,12 +5,12 @@ export default [
         component: () => import('../pages/NotFound.vue')
     },
     {
-        path: '/home',
-        name: 'Home',
+        path: '/',
         component: () => import('../pages/Home.vue')
     },
     {
-        path: '/',
+        path: '/home',
+        name: 'Home',
         component: () => import('../pages/Home.vue')
     },
     {

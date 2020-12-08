@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +15,17 @@ use App\Http\Controllers\PublicController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// route
-Route::get('/{any}', [PublicController::class, 'index'])->where('any', '.*');
+// Route autentikasi
+Route::get('/auth', [AuthController::class, 'index']);
+
+/* 
+** Route admin
+*/
+
+// Dashboard admin
+Route::get('/admin', [DashboardController::class, 'index']);
+
 
 
 // route public
+Route::get('/{any}', [PublicController::class, 'index'])->where('any', '.*');
