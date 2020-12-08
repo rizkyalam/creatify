@@ -52742,6 +52742,9 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
 });
 var app = new Vue({
   el: '#app',
+  data: {
+    msg: 'test'
+  },
   router: router
 });
 
@@ -52805,36 +52808,36 @@ __webpack_require__.r(__webpack_exports__);
   path: '*',
   name: 'NotFound',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
+    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
   }
 }, {
   path: '/home',
   name: 'Home',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
   }
 }, {
   path: '/',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
   }
 }, {
   path: '/data',
   name: 'Data',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
   }
 }, {
   path: '/berita',
   name: 'Berita',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
   }
 }, {
   path: '/faq',
   name: 'FAQ',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
   }
 }]);
 
@@ -52858,8 +52861,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/alam/Documents/work_project/creatify/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/alam/Documents/work_project/creatify/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! c:\xampp5\htdocs\creatify\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! c:\xampp5\htdocs\creatify\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

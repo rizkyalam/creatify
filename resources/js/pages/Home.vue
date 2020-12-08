@@ -21,7 +21,6 @@ export default {
         Navbar
     },
     created() {
-        console.log(this.$route.name)
     }
 }
 </script>

@@ -1,10 +1,23 @@
 // function untuk link di navigasi
 @mixin navLink {
     color: $textColor-secondary;
+    font-weight: bold;
 
     &:hover {
         text-decoration: none;
         color: $textColor-primary;
         font-weight: bold;
     }
+    
+}
+
+// function untuk link di navigasi
+@mixin efekCB {
+    color: $textColor-secondary;
+
+    &:hover {
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
 }
