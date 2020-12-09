@@ -52839,7 +52839,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '*',
   name: 'NotFound',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
   }
 }, {
   path: '/',
@@ -52856,19 +52856,19 @@ __webpack_require__.r(__webpack_exports__);
   path: '/data',
   name: 'Data',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
   }
 }, {
   path: '/berita',
   name: 'Berita',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
   }
 }, {
   path: '/faq',
   name: 'FAQ',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
   }
 }]);
 

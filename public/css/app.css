@@ -15523,7 +15523,8 @@ nav.navbar {
 }
 
 nav.navbar .navbar__logo {
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 1.3em;
   color: #438A5E;
   letter-spacing: 3px;
 }
@@ -15541,6 +15542,7 @@ nav.navbar .navbar__menu {
 
 nav.navbar .navbar__menu a.navbar__menu--active {
   color: #7F8C8D;
+  font-weight: bold;
 }
 
 nav.navbar .navbar__menu a.navbar__menu--active:hover {
@@ -15556,6 +15558,7 @@ nav.navbar .navbar__list {
 
 nav.navbar .navbar__list .navbar__list--close {
   color: #7F8C8D;
+  font-weight: bold;
   display: none;
 }
 
@@ -15577,6 +15580,7 @@ nav.navbar .navbar__list ul li {
 
 nav.navbar .navbar__list ul li a.navbar__list__link {
   color: #7F8C8D;
+  font-weight: bold;
 }
 
 nav.navbar .navbar__list ul li a.navbar__list__link:hover {

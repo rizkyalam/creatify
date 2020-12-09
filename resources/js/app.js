@@ -1,3 +1,4 @@
+
 require('./bootstrap');
 
 window.Vue = require('vue');
@@ -6,6 +7,7 @@ import routes from './router';
 import admin from './admin';
 
 Vue.use(VueRouter);
+
 const router = new VueRouter({
     mode: 'history',
     routes,

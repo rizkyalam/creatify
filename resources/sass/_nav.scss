@@ -9,7 +9,8 @@ nav.navbar {
 
     // logo pada navigasi
     .navbar__logo {
-        font-weight: bolder;
+        font-weight: bold;
+        font-size: 1.3em;
         color: $textColor-primary;
         letter-spacing: 3px;
     }

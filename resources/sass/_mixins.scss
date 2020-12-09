@@ -1,6 +1,7 @@
 // function untuk link di navigasi
 @mixin navLink {
     color: $textColor-secondary;
+    font-weight: bold;
 
     &:hover {
         text-decoration: none;
@@ -27,4 +28,15 @@
     display: flex;
     justify-content: $justify;
     align-items: $alignItem;
+}
+
+// function untuk link di navigasi
+@mixin efekCB {
+    color: $textColor-secondary;
+
+    &:hover {
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
 }

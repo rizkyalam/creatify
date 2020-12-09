@@ -1,16 +1,16 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+// fontawesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-// fontawesome
-@import '~@fortawesome/fontawesome-free/css/all.css';
-
-// Mixins
+// mixins
 @import 'mixins';
 
 // Navbar and sidenav
