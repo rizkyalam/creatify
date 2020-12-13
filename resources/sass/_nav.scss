@@ -171,19 +171,19 @@ nav.navbar-admin {
     @media screen and (max-width: 768px){
         width: 100%;
 
-        .navbar-admin__left {
-            span {
-                display: none;
-            }
-        }   
+        // .navbar-admin__left {
+        //     span {
+        //         display: none;
+        //     }
+        // }   
 
-        .navbar-admin__right {
-            &--menu {
-                span {
-                    display: none;
-                }
-            }
-        }
+        // .navbar-admin__right {
+        //     &--menu {
+        //         span {
+        //             display: none;
+        //         }
+        //     }
+        // }
     }
 }
 

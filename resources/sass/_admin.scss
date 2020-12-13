@@ -27,4 +27,30 @@
     background: $navAdmin-bg;
     width: 100%;
     height: 10rem;
+
+    .card-data {
+        display: flex;
+        justify-content: space-between;
+
+        .card-data__logo {
+            width: auto;
+            i {
+                font-size: 1.5rem;
+                color: green;
+            }
+        }
+
+        .card-data__ket {
+            width: auto;
+
+            span.title {
+                color: green;
+            }
+            span.total {
+                color: $textColor-secondary;
+            }
+        }
+
+        
+    }
 }

@@ -483,7 +483,7 @@ var staticRenderFns = [
                 staticClass: "btn btn-success my-2 my-sm-0",
                 attrs: { type: "submit" }
               },
-              [_c("i", { staticClass: "fas fa-search" }, [_vm._v("O")])]
+              [_c("i", { staticClass: "fas fa-search" })]
             )
           ])
         ])

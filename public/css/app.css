@@ -15694,14 +15694,6 @@ nav.navbar-admin.active {
   nav.navbar-admin {
     width: 100%;
   }
-
-  nav.navbar-admin .navbar-admin__left span {
-    display: none;
-  }
-
-  nav.navbar-admin .navbar-admin__right--menu span {
-    display: none;
-  }
 }
 
 .sidebar {
@@ -16454,12 +16446,80 @@ body.auth {
   height: 10rem;
 }
 
+.data-list .card-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-list .card-data .card-data__logo {
+  width: auto;
+}
+
+.data-list .card-data .card-data__logo i {
+  font-size: 1.5rem;
+  color: green;
+}
+
+.data-list .card-data .card-data__ket {
+  width: auto;
+}
+
+.data-list .card-data .card-data__ket span.title {
+  color: green;
+}
+
+.data-list .card-data .card-data__ket span.total {
+  color: #7F8C8D;
+}
+
 .card {
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
+.card-header,
+.card-footer {
+  background: #fff;
+}
+
 .dropdown-item {
   color: #7F8C8D;
+}
+
+/*
+** Datatables style
+*/
+
+div.dataTables_wrapper div.dataTables_paginate li.paginate_button {
+  margin-top: 3px;
+  padding: 0;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate li.paginate_button.active .page-link {
+  background: #5CC073;
+  border-color: #5CC073;
+}
+
+div.dataTables_wrapper div.dataTables_paginate li.paginate_button.active .page-link:hover {
+  background: #338345;
+  border-color: #338345;
+}
+
+div.dataTables_wrapper div.dataTables_paginate li.paginate_button:hover {
+  background: unset;
+  border: unset;
+}
+
+div#data-tables_length label,
+div#data-tables_filter label {
+  display: flex;
+}
+
+div#data-tables_length label select,
+div#data-tables_filter label select {
+  padding: 0 20px 0 10px;
+  margin: 0 5px;
 }
 
 /*

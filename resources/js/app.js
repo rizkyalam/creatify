@@ -1,6 +1,9 @@
 
 require('./bootstrap');
 
+// sweet alert
+window.Swal = require('sweetalert2');
+
 window.Vue = require('vue');
 import VueRouter from 'vue-router';
 import routes from './router';

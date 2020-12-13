@@ -90,7 +90,7 @@
         <form class="form">
           <input class="form-control pl-4 pr-3" type="search" placeholder="Cari Pertanyaan" aria-label="Search">
           <button class="btn btn-success my-2 my-sm-0" type="submit">
-            <i class="fas fa-search">O</i>
+            <i class="fas fa-search"></i>
           </button>
         </form>
       </div>

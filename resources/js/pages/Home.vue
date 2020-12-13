@@ -17,16 +17,16 @@
                 </div>
 
                 <div class="jumbotron__description__btn">
-                    <button class="btn jumbotron__description__btn--check">
+                    <router-link :to="'/check'" class="btn jumbotron__description__btn--check">
                         <i class="fas fa-thermometer-half"></i> 
                         <span>Periksa Kesehatanmu</span>
-                    </button>
+                    </router-link>
                 </div>
             </div>
 
             <!-- gambar -->
             <div class="col-md jumbotron__image">
-                <img src="img/index.jpeg" alt="">
+                <img src="img/batuk.png" alt="">
             </div>
 
         </div>
@@ -42,7 +42,7 @@
                 
                 <!-- gambar -->
                 <div class="col informasi__img">
-                    <img src="img/social_distance.svg" alt="">
+                    <img src="img/akb.png" alt="">
                 </div>
 
                 <!-- deskripsi -->
@@ -60,13 +60,13 @@
             <div id="carouselExampleControls" class="carousel slide col-md" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="img/slide1.PNG" class="d-block carousel__img" alt="...">
+                    <img src="img/pakai_masker.png" class="d-block carousel__img" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="img/slide2.PNG" class="d-block carousel__img" alt="...">
+                    <img src="img/cuci.png" class="d-block carousel__img" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="img/slide3.jpg" class="d-block carousel__img" alt="...">
+                    <img :src="'../img/jagajarak.png'" class="d-block carousel__img" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -122,28 +122,28 @@
             <div class="data-covid__statistik mt-4">
                 <!-- data odp -->
                 <div class="col-12 col-md card data-covid__statistik__detail">
-                    <img src="img/odp.svg" alt="ODP">        
+                    <img src="img/odp.png" alt="ODP">        
                     <h4>ODP</h4>
                     <p>10 orang</p>
                 </div>
 
                 <!-- data sembuh -->
                 <div class="col-12 col-md mx-md-5 card data-covid__statistik__detail">
-                    <img src="img/sembuh.svg" alt="Sembuh">
+                    <img src="img/sembuh.png" alt="Sembuh">
                     <h4>Sembuh</h4>
                     <p>89 orang</p>
                 </div>
 
                 <!-- data meninggal -->
                 <div class="col-12 col-md card data-covid__statistik__detail">
-                    <img src="img/rip.svg" alt="rip">        
+                    <img src="img/meninggoy.png" alt="rip">        
                     <h4>Meninggal</h4>
                     <p>1 orang</p>
                 </div>
             </div>
 
             <!-- tombol untuk ke link data -->
-            <a href="#" class="btn data-covid--check">Lihat Semua Data</a>
+            <router-link :to="'/data'" class="btn data-covid--check">Lihat Semua Data</router-link>
         </div>
 
     </div>
@@ -170,7 +170,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae vitae corrupti aut dolore quos explicabo? Impedit nam corporis ipsa.
                 </p>
                 
-                <button class="btn news__content__info--check">Lihat Berita Lainnya</button>
+                <router-link :to="'/berita'" class="btn news__content__info--check">Lihat Berita Lainnya</router-link>
             </div>
 
         </div>
@@ -203,5 +203,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$bg: linear-gradient(90.26deg, #5CC073 37.15%, #55AE67 73.48%);
+    .jumbotron {
+        background: $bg;
 
+        &::after{
+            background: $bg;
+        }
+    }
 </style>

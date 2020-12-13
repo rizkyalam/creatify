@@ -33,8 +33,53 @@
     box-shadow: $shadowCard;
 }
 
+.card-header,
+.card-footer {
+    background: #fff;
+}
+
 .dropdown-item {
     color: $textColor-secondary;
+}
+
+/*
+** Datatables style
+*/
+div.dataTables_wrapper div.dataTables_paginate li.paginate_button {
+    &.active {
+        .page-link {
+            background: $activePage;
+            border-color: $activePage;
+    
+            &:hover {
+                background: darken($activePage, 20%);
+                border-color: darken($activePage, 20%);
+            }
+        }
+
+    }
+
+    margin-top: 3px;
+    padding: 0;
+    margin-left: 5px;
+    border-radius: 5px;
+
+    &:hover {
+        background: unset;
+        border: unset;
+    }        
+}
+
+div#data-tables_length,
+div#data-tables_filter{
+    label {
+        display: flex;
+
+        select {
+            padding:0 20px 0 10px;
+            margin: 0 5px;
+        }
+    }
 }
 /*
 ** Ada style yang di buat menggunakan file sass secara terpisah

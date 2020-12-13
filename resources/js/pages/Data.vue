@@ -1,4 +1,8 @@
 <style lang="scss" scoped>
+  // variable
+$colorpage:  #5CC073;
+
+  // style
   .container {
     padding-top: 50px;
 
@@ -140,10 +144,10 @@
   }
 
   #containerData2 {
-    overflow: auto;
+    // overflow: auto;
     margin-bottom: 50px;
     padding: 0px;
-    height: 420px;
+    height: 520px;
     color: #09b34a;
     background: white;
     border-radius: 5px;
@@ -234,6 +238,29 @@
     }
   }
 
+  ul.pagination {
+    .page-item {
+      // page biasa
+      .page-link {
+        color: $colorpage;
+      }
+      
+      &.disabled {
+        color: #7F8C8D;        
+      }
+
+      // page aktif
+      &.active {
+        .page-link {
+        background: $colorpage;
+        border-color: $colorpage;
+        color: white;
+      }
+    }
+    }  
+  }
+  
+
 </style>
 
 <template>
@@ -308,9 +335,9 @@
           <h4 class="$textcolor pageTitle">Data Wilayah</h4>
 
           <form>
-            <input class="form-control" type="search" placeholder="Data Wilayah" aria-label="Search">
-            <button class="btn btn-success pl-3 pr-3" type="submit">
-              <i class="fas fa-search">O</i>
+            <input class="form-control" type="search" placeholder="Data Wilayah" aria-label="Search" v-model="cari">
+            <button class="btn btn-success pl-3 pr-3" type="button" @click="searchWilayah()">
+              <i class="fas fa-search"></i>
             </button>
           </form>
 
@@ -332,29 +359,38 @@
                 </tr>
               </thead>
 
-              <tbody>
+              <tbody v-for="(data, i) in paginate.dataWilayah" :key="i">
                 <tr>
-                  <td> 1 </td>
-                  <td> Cisaranten </td>
-                  <td> <a href="" class="button"> Detail </a> </td>
-                </tr>
-
-                <tr>
-                  <td> 2 </td>
-                  <td> Antapani </td>
-                  <td> <a href="" class="button"> Detail </a> </td>
-                </tr>
-
-                <tr>
-                  <td> 3 </td>
-                  <td> Gedebage </td>
-                  <td> <a href="" class="button"> Detail </a> </td>
+                  <td> {{ ++i }} </td>
+                  <td> {{ data.wilayah.nama_wilayah }} </td>
+                  <td> <router-link :to="`/detail-data/${data.id_data}`" class="button btn"> Detail </router-link> </td>
                 </tr>
               </tbody>
             </table>
 
+            <nav class="d-flex justify-content-center">
+              <ul class="pagination" v-for="(link, i) in paginate.links" :key="i">
+
+                <!-- link active -->
+                <li class="page-item active" v-if="link.active">
+                  <button class="page-link" @click="nextLink(link.url)" tabindex="-1" aria-disabled="true" v-html="link.label"></button>
+                </li>
+
+                <!-- link disabled -->
+                <li class="page-item disabled" v-else-if="link.url === null">
+                  <button class="page-link" @click="nextLink(link.url)" tabindex="-1" aria-disabled="true" v-html="link.label"></button>
+                </li>
+
+                <!-- link yang bisa di akses -->
+                <li class="page-item" v-else>
+                  <button class="page-link" @click="nextLink(link.url)" tabindex="-1" aria-disabled="true" v-html="link.label"></button>
+                </li>
+
+              </ul>
+            </nav>
           </div>
         </article>
+
 
     </div>
   </div>
@@ -365,8 +401,47 @@
 <script>
 import Navbar from '../components/Navbar.vue';
 export default {
+    data: () => ({
+      paginate: {
+        dataWilayah: [],
+        links: [],
+        cari: '',
+        // statistik: {total = null , odp = null, sembuh = null, meninggal = null}
+      }
+    }),
     components: {
-        Navbar
+      Navbar
+    },
+    methods: {
+      // insialisasi awal data
+      paginasiLink() {
+        axios.get('/api/data')
+      .then( response => {
+        this.paginate.links = response.data.links;
+        this.paginate.dataWilayah = response.data.data;
+      });
+      },
+      // link yang di click selanjutnya pada paginate
+      nextLink(url) {
+        axios.get(url)
+        .then( response => {
+          this.paginate.links = response.data.links;
+          this.paginate.dataWilayah = response.data.data;
+        });
+      },
+      searchWilayah() {
+        // backup
+        this.dataSearch = this.dataWilayah;
+
+        this.dataWilayah = this.dataWilayah.filter((data) => data.wilayah.nama_wilayah == this.cari);
+      }
+    },
+    created() {
+      this.paginasiLink();
+      axios.get('https://api.kawalcorona.com/indonesia')
+      .then(response => {
+        console.log(response)
+      })
     }
 }
 </script>

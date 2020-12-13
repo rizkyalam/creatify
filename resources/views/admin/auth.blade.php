@@ -19,13 +19,14 @@
 
             <div class="col auth-card__login-form">
                 <h2>Sign In</h2>
-                <form action="">
+                <form action="{{ url('auth/login') }}" method="post">
+                    @csrf
                     
                     <div class="form-group auth-card__login-form__group">
-                        <label for="username">
-                            <i class="fas fa-user"></i>
+                        <label for="email">
+                            <i class="fas fa-envelope"></i>
                         </label>
-                        <input type="text" name="username" class="form-control" id="username" placeholder="USERNAME">
+                        <input type="text" name="email" class="form-control" id="email" placeholder="EMAIL">
                     </div>
 
                     <div class="form-group auth-card__login-form__group">
@@ -36,7 +37,7 @@
                     </div>
 
                     <div class="form-group auth-card__login-form__btn">
-                        <button class="btn auth-card__login-form__btn--submit">Login</button>
+                        <button type="submit" class="btn auth-card__login-form__btn--submit">Login</button>
                     </div>
 
                 </form>

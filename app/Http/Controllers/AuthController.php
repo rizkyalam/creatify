@@ -11,4 +11,11 @@ class AuthController extends Controller
     {
         return view('admin.auth');
     }
+
+    // login
+    public function login(Request $request)
+    {
+        if($request->email === 'admin@example.com' && $request->password === 'admin') 
+            return redirect('admin')->with('flash', 'login');
+    }
 }
