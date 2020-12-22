@@ -15,8 +15,8 @@
             {{-- bagian kanan --}}
             <div class="navbar-admin__right dropdown">
                 <a href="#" class="navbar-admin__right--menu" data-toggle="dropdown">
-                <img src="{{ asset('img/user/default.jpg' ) }}" alt="">
-                    <span>Admin</span>
+                <img src="{{ asset('img/user/' . Auth::user()->image ) }}" alt="">
+                    <span>{{ Auth::user()->name }}</span>
                     <i class="fas fa-caret-down"></i>
                 </a>
                 
@@ -26,7 +26,7 @@
                         <i class="fas fa-cog"></i>
                         <span class="ml-2">Profile</span>
                     </a> --}}
-                    <a class="dropdown-item" href="{{ url('auth') }}">
+                    <a class="dropdown-item" href="{{ route('auth.logout') }}">
                         <i class="fas fa-sign-out-alt"></i>
                         <span class="ml-2">Logout</span>
                     </a>

@@ -56,16 +56,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Faq.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Navbar_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Navbar.vue */ "./resources/js/components/Navbar.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -249,10 +269,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -261,22 +281,22 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".containerFaq[data-v-63c30fc6] {\n  margin-top: 70px;\n  overflow: auto;\n  float: center;\n  width: 100%;\n}\n.containerFaq .imgFaq[data-v-63c30fc6] {\n  float: left;\n  width: 45%;\n}\n.containerFaq .imgFaq img[data-v-63c30fc6] {\n  width: 100%;\n}\n.containerFaq .searchFaq[data-v-63c30fc6] {\n  background: white;\n  float: right;\n  width: 55%;\n  padding-top: 100px;\n  padding-bottom: 100px;\n}\n.containerFaq .searchFaq h5[data-v-63c30fc6] {\n  text-align: center;\n  font-weight: bold;\n  font-size: 1.5em;\n  margin-bottom: 17px;\n}\n.containerFaq .searchFaq form[data-v-63c30fc6] {\n  padding-top: 20px;\n  padding-left: 78px;\n  padding-right: 58px;\n  padding-bottom: 83px;\n  float: center;\n  width: 100%;\n}\n.containerFaq .searchFaq form input[data-v-63c30fc6] {\n  padding-left: 187px;\n  padding-right: 187px;\n  float: left;\n  width: 90%;\n}\n.containerFaq .searchFaq form button[data-v-63c30fc6] {\n  border-radius: 3px;\n  float: right;\n  width: 10%;\n}\n.containerCollapse[data-v-63c30fc6] {\n  margin-top: 0px;\n}\n.containerCollapse .card-header[data-v-63c30fc6] {\n  background: #f0fff6;\n}\n.containerCollapse .card-header a[data-v-63c30fc6] {\n  color: #09b34a;\n  font-size: 0.7em;\n  font-weight: bold;\n}\n.containerCollapse .card-body[data-v-63c30fc6] {\n  background: #c4f8de;\n}", ""]);
+exports.push([module.i, ".jumbotron[data-v-b3c5cf30] {\n  background: linear-gradient(90.26deg, #5CC073 37.15%, #55AE67 73.48%);\n}\n.jumbotron[data-v-b3c5cf30]::after {\n  background: linear-gradient(90.26deg, #5CC073 37.15%, #55AE67 73.48%);\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true&");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -436,10 +456,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=template&id=63c30fc6&scoped=true&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Faq.vue?vue&type=template&id=63c30fc6&scoped=true& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -451,194 +471,389 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("Navbar"), _vm._v(" "), _vm._m(0)], 1)
+  return _c(
+    "section",
+    [
+      _c("Navbar"),
+      _vm._v(" "),
+      _c("div", { staticClass: "jumbotron" }, [
+        _c("div", { staticClass: "container row" }, [
+          _c("div", { staticClass: "col-md-7 jumbotron__description" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "jumbotron__description__btn" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "btn jumbotron__description__btn--check",
+                    attrs: { to: "/check" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-thermometer-half" }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Periksa Kesehatanmu")])
+                  ]
+                )
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(2)
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _vm._m(3),
+        _vm._v(" "),
+        _c("div", { staticClass: "informasi-2 row" }, [
+          _c(
+            "div",
+            {
+              staticClass: "carousel slide col-md",
+              attrs: { id: "carouselExampleControls", "data-ride": "carousel" }
+            },
+            [
+              _c("div", { staticClass: "carousel-inner" }, [
+                _vm._m(4),
+                _vm._v(" "),
+                _vm._m(5),
+                _vm._v(" "),
+                _c("div", { staticClass: "carousel-item" }, [
+                  _c("img", {
+                    staticClass: "d-block carousel__img",
+                    attrs: { src: "../img/jagajarak.png", alt: "..." }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _vm._m(6),
+              _vm._v(" "),
+              _vm._m(7)
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(8)
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "data-covid" },
+          [
+            _c("h3", [_vm._v("Data Penyebaran Covid")]),
+            _vm._v(" "),
+            _vm._m(9),
+            _vm._v(" "),
+            _vm._m(10),
+            _vm._v(" "),
+            _c(
+              "router-link",
+              { staticClass: "btn data-covid--check", attrs: { to: "/data" } },
+              [_vm._v("Lihat Semua Data")]
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "news" }, [
+        _vm._m(11),
+        _vm._v(" "),
+        _c("div", { staticClass: "news__content row" }, [
+          _vm._m(12),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-12 col-md-6 news__content__info" },
+            [
+              _c("h3", [_vm._v("Berita Terkini")]),
+              _vm._v(" "),
+              _c("h4", { staticClass: "news__content__info__title" }, [
+                _vm._v("Penyebaran Covid 19 kini mulai mereda")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "news__content__info__description" }, [
+                _vm._v(
+                  "\n                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae vitae corrupti aut dolore quos explicabo? Impedit nam corporis ipsa.\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "router-link",
+                {
+                  staticClass: "btn news__content__info--check",
+                  attrs: { to: "/berita" }
+                },
+                [_vm._v("Lihat Berita Lainnya")]
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(13),
+        _vm._v(" "),
+        _vm._m(14)
+      ])
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "containerFaq" }, [
-        _c("div", { staticClass: "imgFaq" }, [
-          _c("img", { attrs: { src: "img/apa.png" } })
+    return _c("div", { staticClass: "jumbotron__description__title" }, [
+      _c("h1", [_vm._v("Pantau Penyebaran Covid 19 Dengan Creatify")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "jumbotron__description__text" }, [
+      _c("p", [
+        _vm._v(
+          "Mari terapkan pola hidup sehat dan jangan lupa atuhi protokol kesehatan"
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md jumbotron__image" }, [
+      _c("img", { attrs: { src: "img/batuk.png", alt: "" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card informasi" }, [
+      _c("div", { staticClass: "card-body" }, [
+        _c("div", { staticClass: "col informasi__img" }, [
+          _c("img", { attrs: { src: "img/akb.png", alt: "" } })
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "searchFaq" }, [
-          _c("h5", [_vm._v(" Pertanyaan yang sering ditanyakan ")]),
+        _c("div", { staticClass: "col informasi__description" }, [
+          _c("h2", [_vm._v("Tetap Waspada Dengan Menerapkan AKB")]),
           _vm._v(" "),
-          _c("form", { staticClass: "form" }, [
-            _c("input", {
-              staticClass: "form-control pl-4 pr-3",
-              attrs: {
-                type: "search",
-                placeholder: "Cari Pertanyaan",
-                "aria-label": "Search"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "button",
-              {
-                staticClass: "btn btn-success my-2 my-sm-0",
-                attrs: { type: "submit" }
-              },
-              [_c("i", { staticClass: "fas fa-search" })]
+          _c("p", [
+            _vm._v(
+              "Selama vaksin belum ditemukan, cara terbaik untuk kembali beraktivitas adalah dengan menerapkan ADAPTASI KEBIASAAN BARU (AKB) di tengah pandemi. "
             )
           ])
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "carousel-item active" }, [
+      _c("img", {
+        staticClass: "d-block carousel__img",
+        attrs: { src: "img/pakai_masker.png", alt: "..." }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "carousel-item" }, [
+      _c("img", {
+        staticClass: "d-block carousel__img",
+        attrs: { src: "img/cuci.png", alt: "..." }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "carousel-control-prev",
+        attrs: {
+          href: "#carouselExampleControls",
+          role: "button",
+          "data-slide": "prev"
+        }
+      },
+      [
+        _c("span", {
+          staticClass: "carousel-control-prev-icon",
+          attrs: { "aria-hidden": "true" }
+        }),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "carousel-control-next",
+        attrs: {
+          href: "#carouselExampleControls",
+          role: "button",
+          "data-slide": "next"
+        }
+      },
+      [
+        _c("span", {
+          staticClass: "carousel-control-next-icon",
+          attrs: { "aria-hidden": "true" }
+        }),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md contact" }, [
+      _c("div", { staticClass: "col card mb-md-5" }, [
+        _c("h3", [_vm._v("Call Center")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "contact__keterangan" }, [
+          _vm._v("\n                    Nomor Darurat\n                ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "contact__telepon" }, [
+          _c("i", { staticClass: "fas fa-phone-alt" }),
+          _vm._v(" "),
+          _c("span", [_vm._v("119")])
+        ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "containerCollapse" }, [
-        _c(
-          "div",
-          { staticClass: "accordion", attrs: { id: "accordionExample" } },
-          [
-            _c("div", { staticClass: "card" }, [
-              _c(
-                "div",
-                { staticClass: "card-header", attrs: { id: "headingOne" } },
-                [
-                  _c("h2", { staticClass: "ml-0" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass:
-                          "btn btn-link btn-block text-left collapsed",
-                        attrs: {
-                          "data-toggle": "collapse",
-                          "data-target": "#collapseOne",
-                          "aria-expanded": "true",
-                          "aria-controls": "collapseOne"
-                        }
-                      },
-                      [
-                        _vm._v(
-                          "\n              Seberapa Bahaya nya Virus Corona ini ?\n            "
-                        )
-                      ]
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "collapse show",
-                  attrs: {
-                    id: "collapseOne",
-                    "aria-labelledby": "headingOne",
-                    "data-parent": "#accordionExample"
-                  }
-                },
-                [
-                  _c("div", { staticClass: "card-body" }, [
-                    _vm._v(
-                      "\n            Seperti penyakit pernafasan lainnya, 2019-nCoV dapat menyebabkan gejala ringan seperti Flu, Demam,\n            Sakit Tenggorokan, dan Batuk. Beberapa orang juga mungkin akan menderita sakit yang parah seperti disertai \n            Pneumonia atau Asma. Walaupun fatalitas penyakit ini masih terbilang umum, namun bagi para lansia hal ini dapat\n            memicu komplikasi gangguan kesehatan yang serius dan cenderung lebih rentan terpapar Corona Virus.\n          "
-                    )
-                  ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card" }, [
-              _c(
-                "div",
-                { staticClass: "card-header", attrs: { id: "headingTwo" } },
-                [
-                  _c("h2", { staticClass: "mb-0" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass:
-                          "btn btn-link btn-block text-left collapsed",
-                        attrs: {
-                          "data-toggle": "collapse",
-                          "data-target": "#collapseTwo",
-                          "aria-expanded": "false",
-                          "aria-controls": "collapseTwo"
-                        }
-                      },
-                      [
-                        _vm._v(
-                          "\n            Apakah vaksin Covid-19 sudah ditemukan ?\n            "
-                        )
-                      ]
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "collapse",
-                  attrs: {
-                    id: "collapseTwo",
-                    "aria-labelledby": "headingTwo",
-                    "data-parent": "#accordionExample"
-                  }
-                },
-                [
-                  _c("div", { staticClass: "card-body" }, [
-                    _vm._v(
-                      "\n            Vaksin Covid-19 sudah ditemukan dan diproduksi secara massal, namun perlu di uji terlebih dahulu keamanan dan khasiatnya\n            oleh BPOM-RI. Sehingga Vaksinasi di Indonesia harus tertunda terlebih dahulu, Kebijakan ini diambil pemerintah guna untuk \n            menghalau kekhawatiran masyarakat akan Vaksin Covid-19 ini.\n          "
-                    )
-                  ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card" }, [
-              _c(
-                "div",
-                { staticClass: "card-header", attrs: { id: "headingThree" } },
-                [
-                  _c("h2", { staticClass: "mb-0" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass:
-                          "btn btn-link btn-block text-left collapsed",
-                        attrs: {
-                          "data-toggle": "collapse",
-                          "data-target": "#collapseThree",
-                          "aria-expanded": "false",
-                          "aria-controls": "collapseThree"
-                        }
-                      },
-                      [
-                        _vm._v(
-                          "\n              Kapan diberlakukannya kehidupan normal seperti dulu lagi ?\n            "
-                        )
-                      ]
-                    )
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "collapse",
-                  attrs: {
-                    id: "collapseThree",
-                    "aria-labelledby": "headingThree",
-                    "data-parent": "#accordionExample"
-                  }
-                },
-                [
-                  _c("div", { staticClass: "card-body" }, [
-                    _vm._v(
-                      "\n            Rencananya, pada tahun 2021 segala aspek kehidupan mencakup bidang pendidikan, ekonomi, sosial, budaya, rohani sudah mulai diberlakukan normal seperti dulu lagi. \n            Namun mengingat bahwa statistik penularan Covid-19 di Indonesia akhir-akhir ini semakin meningkat, dampaknya kemungkinan besar\n            pemerintah akan mengambil kebijakan memperpanjang masa Karantina serentak se-Indonesia dan mengundur masa Normal sampai situasi dan kondisi\n            di Indonesia membaik.\n          "
-                    )
-                  ])
-                ]
-              )
-            ])
-          ]
-        )
+      _c("div", { staticClass: "col card" }, [
+        _c("h3", [_vm._v("Hotline")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "contact__keterangan" }, [
+          _vm._v(
+            "\n                    Chat WA seputar Covid 19\n                "
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "contact__telepon" }, [
+          _c("i", { staticClass: "fab fa-whatsapp" }),
+          _vm._v(" "),
+          _c("span", [_vm._v("+62 811 2093 306")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "data-covid__tanggal" }, [
+      _vm._v("\n            Tanggal: \n                "),
+      _c("span", { staticClass: "data-covid__tanggal--now" }, [
+        _vm._v("2 Desember 2020")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "data-covid__statistik mt-4" }, [
+      _c(
+        "div",
+        { staticClass: "col-12 col-md card data-covid__statistik__detail" },
+        [
+          _c("img", { attrs: { src: "img/odp.png", alt: "ODP" } }),
+          _vm._v(" "),
+          _c("h4", [_vm._v("ODP")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("10 orang")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-12 col-md mx-md-5 card data-covid__statistik__detail"
+        },
+        [
+          _c("img", { attrs: { src: "img/sembuh.png", alt: "Sembuh" } }),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Sembuh")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("89 orang")])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-12 col-md card data-covid__statistik__detail" },
+        [
+          _c("img", { attrs: { src: "img/meninggoy.png", alt: "rip" } }),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Meninggal")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("1 orang")])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "news__btn news__btn__left" }, [
+      _c("a", { staticClass: "col news__btn--prev", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fas fa-arrow-circle-left" })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-lg-6 news__content__img" }, [
+      _c("img", { attrs: { src: "img/news.svg", alt: "berita terbaru" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "news__page" }, [
+      _c("a", { staticClass: "news__page__link active", attrs: { href: "#" } }),
+      _vm._v(" "),
+      _c("a", { staticClass: "news__page__link", attrs: { href: "#" } }),
+      _vm._v(" "),
+      _c("a", { staticClass: "news__page__link", attrs: { href: "#" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "news__btn news__btn__right" }, [
+      _c("a", { staticClass: "col news__btn--next", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fas fa-arrow-circle-right" })
       ])
     ])
   }
@@ -718,18 +933,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/Faq.vue":
-/*!************************************!*\
-  !*** ./resources/js/pages/Faq.vue ***!
-  \************************************/
+/***/ "./resources/js/pages/Home.vue":
+/*!*************************************!*\
+  !*** ./resources/js/pages/Home.vue ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Faq_vue_vue_type_template_id_63c30fc6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Faq.vue?vue&type=template&id=63c30fc6&scoped=true& */ "./resources/js/pages/Faq.vue?vue&type=template&id=63c30fc6&scoped=true&");
-/* harmony import */ var _Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Faq.vue?vue&type=script&lang=js& */ "./resources/js/pages/Faq.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Faq_vue_vue_type_style_index_0_id_63c30fc6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true& */ "./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true&");
+/* harmony import */ var _Home_vue_vue_type_template_id_b3c5cf30_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=b3c5cf30&scoped=true& */ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true&");
+/* harmony import */ var _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js& */ "./resources/js/pages/Home.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Home_vue_vue_type_style_index_0_id_b3c5cf30_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true& */ "./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -740,66 +955,66 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Faq_vue_vue_type_template_id_63c30fc6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Faq_vue_vue_type_template_id_63c30fc6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Home_vue_vue_type_template_id_b3c5cf30_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Home_vue_vue_type_template_id_b3c5cf30_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  "63c30fc6",
+  "b3c5cf30",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/pages/Faq.vue"
+component.options.__file = "resources/js/pages/Home.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/pages/Faq.vue?vue&type=script&lang=js&":
-/*!*************************************************************!*\
-  !*** ./resources/js/pages/Faq.vue?vue&type=script&lang=js& ***!
-  \*************************************************************/
+/***/ "./resources/js/pages/Home.vue?vue&type=script&lang=js&":
+/*!**************************************************************!*\
+  !*** ./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
+  \**************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true& ***!
-  \**********************************************************************************************/
+/***/ "./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true& ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_63c30fc6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=style&index=0&id=63c30fc6&lang=scss&scoped=true&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_63c30fc6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_63c30fc6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_63c30fc6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_63c30fc6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/pages/Faq.vue?vue&type=template&id=63c30fc6&scoped=true&":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/pages/Faq.vue?vue&type=template&id=63c30fc6&scoped=true& ***!
-  \*******************************************************************************/
+/***/ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true& ***!
+  \********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_63c30fc6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=template&id=63c30fc6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Faq.vue?vue&type=template&id=63c30fc6&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_63c30fc6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_b3c5cf30_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=template&id=b3c5cf30&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_b3c5cf30_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_63c30fc6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_b3c5cf30_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

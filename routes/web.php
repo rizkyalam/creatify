@@ -21,31 +21,34 @@ use App\Http\Controllers\NewsController;
 */
 
 // Route autentikasi
-Route::get('/auth', [AuthController::class, 'index']);
+Route::get('/auth', [AuthController::class, 'index'])->name('auth');
+Route::get('/logout', [AuthController::class, 'logout'])->name('auth.logout');
 
 /* 
 ** Route admin
 */
 
-// Dashboard admin
-Route::get('/admin', [DashboardController::class, 'index']);
-
-// Route User Admin
-Route::get('/admin/user', [UserController::class, 'index']);
-Route::get('/admin/user/create', [UserController::class, 'create']);
-Route::post('/admin/user', [UserController::class, 'store']);
-Route::get('/admin/user/{id}/edit', [UserController::class, 'edit']);
-Route::put('/admin/user/{id}', [UserController::class, 'update']);
-Route::delete('/admin/user/{id}', [UserController::class, 'destroy']);
-
-// Route Data Covid 
-Route::resource('/admin/data', DataCovidController::class);
-
-// route wilayah
-Route::resource('/admin/wilayah', WilayahController::class);
-
-// Route berita
-Route::resource('/admin/news', NewsController::class);
+Route::prefix('admin')->middleware(['auth', 'login:1'])->group(function() {
+    // Dashboard admin
+    Route::get('/', [DashboardController::class, 'index']);
+    
+    // Route User Admin
+    Route::get('/user', [UserController::class, 'index']);
+    Route::get('/user/create', [UserController::class, 'create']);
+    Route::post('/user', [UserController::class, 'store']);
+    Route::get('/user/{id}/edit', [UserController::class, 'edit']);
+    Route::put('/user/{id}', [UserController::class, 'update']);
+    Route::delete('/user/{id}', [UserController::class, 'destroy']);
+    
+    // Route Data Covid 
+    Route::resource('/data', DataCovidController::class);
+    
+    // route wilayah
+    Route::resource('/wilayah', WilayahController::class);
+    
+    // Route berita
+    Route::resource('/news', NewsController::class);
+});
 
 // Route Auth
 Route::post('auth/login', [AuthController::class, 'login']);

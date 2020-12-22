@@ -56522,59 +56522,59 @@ __webpack_require__.r(__webpack_exports__);
   path: '*',
   name: 'NotFound',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(7), __webpack_require__.e(12)]).then(__webpack_require__.bind(null, /*! ../pages/NotFound.vue */ "./resources/js/pages/NotFound.vue"));
   }
 }, {
   path: '/',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(7), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
   }
 }, {
   path: '/home',
   name: 'Home',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(7), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../pages/Home.vue */ "./resources/js/pages/Home.vue"));
   }
 }, {
   path: '/data',
   name: 'Data',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(7), __webpack_require__.e(10)]).then(__webpack_require__.bind(null, /*! ../pages/Data.vue */ "./resources/js/pages/Data.vue"));
   }
 }, {
   path: '/detail-data/:id',
   name: 'DetailData',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/DetailData.vue */ "./resources/js/pages/DetailData.vue"));
+    return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ../pages/DetailData.vue */ "./resources/js/pages/DetailData.vue"));
   }
 }, {
   path: '/berita',
   name: 'Berita',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(7), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, /*! ../pages/Berita.vue */ "./resources/js/pages/Berita.vue"));
   }
 }, {
   path: '/detail-berita/:id',
   name: 'DetailBerita',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../pages/DetailBerita.vue */ "./resources/js/pages/DetailBerita.vue"));
+    return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../pages/DetailBerita.vue */ "./resources/js/pages/DetailBerita.vue"));
   }
 }, {
   path: '/faq',
   name: 'FAQ',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(7), __webpack_require__.e(11)]).then(__webpack_require__.bind(null, /*! ../pages/Faq.vue */ "./resources/js/pages/Faq.vue"));
   }
 }, {
   path: '/check',
   name: 'CekKesehatan',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/Check.vue */ "./resources/js/pages/Check.vue"));
+    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/Check.vue */ "./resources/js/pages/Check.vue"));
   }
 }, {
   path: '/check/:id',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/Check.vue */ "./resources/js/pages/Check.vue"));
+    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/Check.vue */ "./resources/js/pages/Check.vue"));
   }
 }]);
 
